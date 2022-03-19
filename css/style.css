@@ -211,6 +211,49 @@ nav ul li a:hover {
     justify-content: center;
     align-items: centers;
 }
+.iconsbox {
+    float: right;
+    color: #fff;
+}
+#login-box  {
+	padding: 15px;
+	width: 900px;
+    height: 600px;
+	position: absolute;
+	left: 20%;
+	top: 100%;
+	background: linear-gradient(red,blue,orange);
+	color: #fff;
+	display: none;
+	text-align: center;
+    z-index: 999;
+}
+#login-box input {
+    width: 100%;
+    height: 40px;
+    border-radius: 16px;
+    border: none;
+}
+#login-box p {
+    text-align: left;
+    margin: 10px;
+}
+#login-box .chek {
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+    left: 5px;
+    top: 0px;
+}
+#login-box button {
+    width: 100%;
+    height: 50px;
+    border-radius: 16px;
+    border: none;
+    background-color: #ec1c00;
+    color: #fff;
+}
 @media (max-width: 991px){
     .toggle-btn {
         transition: 2s;
@@ -261,6 +304,18 @@ nav ul li a:hover {
         color: #fff;
         text-align: center;
         background: linear-gradient(red,blue,orange);
+    }
+    #login-box  {
+        padding: 15px;
+        width: 100%;
+        min-height: 30%;
+        background: linear-gradient(red,blue,orange);
+        color: #fff;
+        display: none;
+        text-align: center;
+        z-index: 999;
+        position: absolute;
+        left: 0;
     }
 }
 @media (min-width: 779px) and (max-width: 1024px){
@@ -347,6 +402,18 @@ nav ul li a:hover {
         left: 10px;
         float: left;
     }
+    #login-box  {
+        padding: 15px;
+        width: 100%;
+        min-height: 30%;
+        background: linear-gradient(red,blue,orange);
+        color: #fff;
+        display: none;
+        text-align: center;
+        z-index: 999;
+        position: absolute;
+        left: 0;
+    }
 }
 @media (min-width: 360px) and (max-width: 760px){
     .toggle-btn {
@@ -421,6 +488,18 @@ nav ul li a:hover {
         left: 10px;
         float: left;
     }
+    #login-box  {
+        padding: 15px;
+        width: 100%;
+        min-height: 30%;
+        background: linear-gradient(red,blue,orange);
+        color: #fff;
+        display: none;
+        text-align: center;
+        z-index: 999;
+        position: absolute;
+        left: 0;
+    }
 }
 @media (max-width: 320px){
     .toggle-btn {
@@ -494,5 +573,17 @@ nav ul li a:hover {
         position: relative;
         left: 10px;
         float: left;
+    }
+    #login-box  {
+        padding: 15px;
+        width: 100%;
+        min-height: 30%;
+        background: linear-gradient(red,blue,orange);
+        color: #fff;
+        display: none;
+        text-align: center;
+        z-index: 999;
+        position: absolute;
+        left: 0;
     }
 }
